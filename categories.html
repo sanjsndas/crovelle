@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories — Crovelle Living Forms | Explore by Topic</title>
+    <meta name="description" content="Browse Crovelle Living Forms categories: interior design, architecture, materials, lighting, and slow living. Find articles that inspire thoughtful spaces.">
+    <meta name="keywords" content="interior design categories, architecture topics, crovelle living forms, design inspiration">
+    <meta name="author" content="Crovelle Editorial">
+    <link rel="canonical" href="https://www.crovellelivingforms.com/categories.html">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Categories — Crovelle Living Forms">
+    <meta property="og:description" content="Explore our curated categories: interiors, architecture, craft, and the art of living well.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.crovellelivingforms.com/categories.html">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        /* ---------- RESET & BASE ---------- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --ink: #1e1e1e;
+            --ink-soft: #3f3f3f;
+            --paper: #f9f8f6;
+            --paper-warm: #f4f1ec;
+            --border: #e0dcd5;
+            --border-light: #edeae5;
+            --accent: #9b7b5c;
+            --accent-deep: #7a5f45;
+            --muted: #7b7b7b;
+            --white: #ffffff;
+            --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.04);
+            --shadow-card: 0 8px 24px rgba(0, 0, 0, 0.05);
+            --radius: 6px;
+            --font-serif: 'Playfair Display', Georgia, serif;
+            --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --max-width: 1280px;
+            --content-width: 720px;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: var(--font-sans);
+            background: var(--paper);
+            color: var(--ink);
+            line-height: 1.65;
+            font-size: 17px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.2s ease, border-color 0.2s ease;
+        }
+        a:hover {
+            color: var(--accent-deep);
+        }
+        ul {
+            list-style: none;
+        }
+        button {
+            font-family: inherit;
+            cursor: pointer;
+        }
+        /* ---------- TYPOGRAPHY ---------- */
+        h1, h2, h3, h4, h5 {
+            font-family: var(--font-serif);
+            font-weight: 500;
+            line-height: 1.25;
+            letter-spacing: -0.01em;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 500;
+        }
+        h2 {
+            font-size: 2.1rem;
+            margin-bottom: 1rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        h4 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            margin-bottom: 1.5rem;
+            color: var(--ink-soft);
+        }
+        /* ---------- LAYOUT ---------- */
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        /* ---------- HEADER ---------- */
+        .site-header {
+            background: var(--paper);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(6px);
+            background-color: rgba(249, 248, 246, 0.92);
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 24px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .logo {
+            display: flex;
+            align-items: baseline;
+            gap: 4px;
+            font-family: var(--font-serif);
+            font-size: 1.7rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: var(--ink);
+        }
+        .logo span {
+            font-family: var(--font-sans);
+            font-size: 0.7rem;
+            font-weight: 500;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-left: 6px;
+        }
+        .main-nav {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+        .main-nav a {
+            font-size: 0.88rem;
+            font-weight: 500;
+            color: var(--ink-soft);
+            letter-spacing: 0.02em;
+            padding: 4px 0;
+            border-bottom: 2px solid transparent;
+        }
+        .main-nav a:hover,
+        .main-nav a.active {
+            color: var(--ink);
+            border-bottom-color: var(--accent);
+        }
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--border);
+            padding: 8px 12px;
+            border-radius: var(--radius);
+            font-size: 1rem;
+            color: var(--ink);
+        }
+        @media (max-width: 820px) {
+            .main-nav {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--paper);
+                border-bottom: 1px solid var(--border);
+                flex-direction: column;
+                padding: 24px;
+                gap: 16px;
+                align-items: flex-start;
+                box-shadow: var(--shadow-sm);
+            }
+            .main-nav.open {
+                display: flex;
+            }
+            .menu-toggle {
+                display: block;
+            }
+        }
+        /* ---------- CATEGORIES PAGE ---------- */
+        .categories-hero {
+            background: var(--paper-warm);
+            border-bottom: 1px solid var(--border);
+            padding: 72px 0 56px;
+            text-align: center;
+        }
+        .categories-hero h1 {
+            font-size: 3.4rem;
+            margin-bottom: 12px;
+        }
+        .categories-hero .subhead {
+            font-size: 1.15rem;
+            color: var(--ink-soft);
+            max-width: 680px;
+            margin: 0 auto;
+            line-height: 1.7;
+            font-family: var(--font-serif);
+            font-weight: 400;
+            font-style: italic;
+        }
+        .categories-grid-section {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 64px 24px 80px;
+        }
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 32px;
+        }
+        .category-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-card);
+            overflow: hidden;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            border: 1px solid var(--border-light);
+            display: flex;
+            flex-direction: column;
+        }
+        .category-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+        }
+        .category-card-image {
+            height: 220px;
+            background-size: cover;
+            background-position: center;
+            background-color: #d9d4cd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--ink-soft);
+            font-family: var(--font-serif);
+            font-size: 1.2rem;
+            letter-spacing: 0.02em;
+            position: relative;
+        }
+        .category-card-image::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.15) 100%);
+        }
+        .category-card-content {
+            padding: 26px 26px 30px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .category-card-content h2 {
+            font-size: 1.65rem;
+            margin-bottom: 10px;
+            font-weight: 500;
+            line-height: 1.3;
+        }
+        .category-card-content p {
+            font-size: 0.98rem;
+            line-height: 1.7;
+            color: var(--ink-soft);
+            margin-bottom: 20px;
+            flex: 1;
+        }
+        .category-meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-top: 1px solid var(--border-light);
+            padding-top: 18px;
+            font-size: 0.85rem;
+            color: var(--muted);
+            letter-spacing: 0.02em;
+        }
+        .category-count {
+            font-weight: 500;
+            color: var(--accent-deep);
+        }
+        .category-link {
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--accent-deep);
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s ease;
+        }
+        .category-link:hover {
+            border-bottom-color: var(--accent-deep);
+        }
+        .category-link::after {
+            content: '→';
+            font-size: 1rem;
+            transition: transform 0.2s ease;
+        }
+        .category-link:hover::after {
+            transform: translateX(3px);
+        }
+        /* ---------- FOOTER ---------- */
+        .site-footer {
+            background: var(--ink);
+            color: #d4d0c8;
+            padding: 56px 0 32px;
+            margin-top: 0;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        @media (max-width: 820px) {
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media (max-width: 480px) {
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .footer-brand .logo {
+            color: var(--white);
+            margin-bottom: 14px;
+        }
+        .footer-brand .logo span {
+            color: #b8a48e;
+        }
+        .footer-brand p {
+            font-size: 0.92rem;
+            color: #a8a29a;
+            line-height: 1.7;
+            max-width: 320px;
+            margin-bottom: 0;
+        }
+        .footer-col h4 {
+            font-family: var(--font-sans);
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #a8a29a;
+            margin-bottom: 18px;
+        }
+        .footer-col ul li {
+            margin-bottom: 10px;
+        }
+        .footer-col ul li a {
+            font-size: 0.9rem;
+            color: #d4d0c8;
+        }
+        .footer-col ul li a:hover {
+            color: var(--white);
+        }
+        .footer-bottom {
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: 0.82rem;
+            color: #8a847c;
+        }
+        .footer-bottom a {
+            color: #b8b2a8;
+        }
+        .footer-bottom a:hover {
+            color: var(--white);
+        }
+        /* ---------- UTILS ---------- */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            border: 0;
+        }
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: var(--accent);
+            width: 0%;
+            z-index: 200;
+            transition: width 0.1s;
+        }
+        @media (max-width: 600px) {
+            .categories-hero h1 {
+                font-size: 2.3rem;
+            }
+            .categories-hero .subhead {
+                font-size: 1rem;
+            }
+            .category-card-content h2 {
+                font-size: 1.4rem;
+            }
+            .category-card-image {
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- ========== HEADER ========== -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">Crovelle <span>Living Forms</span></a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+            <nav class="main-nav" id="mainNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="terms.html">Terms Of Privacy</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="cookies.html">Cookies Policy</a></li>
+                <li><a href="disclaimer.html">Disclaimer</a></li>
+                <li><a href="categories.html" class="active">Categories</a></li>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== CATEGORIES HERO ========== -->
+    <section class="categories-hero">
+        <div class="container">
+            <h1>Categories</h1>
+            <p class="subhead">Explore our editorial pillars — from interior design and architecture to materials, light, and the slow art of living well.</p>
+        </div>
+    </section>
+
+    <!-- ========== CATEGORIES GRID ========== -->
+    <main class="categories-grid-section">
+        <div class="categories-grid">
+
+            <!-- Card 1: Interiors -->
+            <article class="category-card">
+                <div class="category-card-image" style="background-image: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop');">
+                </div>
+                <div class="category-card-content">
+                    <h2>Interiors</h2>
+                    <p>Rooms that breathe. Explore thoughtful residential and commercial interiors — from quiet minimalist apartments to layered, textural homes. Practical guides, designer interviews, and tours.</p>
+                    <div class="category-meta">
+                        <span class="category-count">24 articles</span>
+                        <a href="#" class="category-link">Browse</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 2: Architecture -->
+            <article class="category-card">
+                <div class="category-card-image" style="background-image: url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&h=600&fit=crop');">
+                </div>
+                <div class="category-card-content">
+                    <h2>Architecture</h2>
+                    <p>Buildings that hold meaning. Critical essays and case studies on contemporary architecture, adaptive reuse, and the intersection of structure, landscape, and human experience.</p>
+                    <div class="category-meta">
+                        <span class="category-count">18 articles</span>
+                        <a href="#" class="category-link">Browse</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 3: Materials & Craft -->
+            <article class="category-card">
+                <div class="category-card-image" style="background-image: url('https://images.unsplash.com/photo-1615529162924-f8605388461d?w=800&h=600&fit=crop');">
+                </div>
+                <div class="category-card-content">
+                    <h2>Materials & Craft</h2>
+                    <p>Stone, timber, clay, lime, and metal. Deep dives into sustainable materials, traditional techniques, and the makers who shape our built environment with care and skill.</p>
+                    <div class="category-meta">
+                        <span class="category-count">15 articles</span>
+                        <a href="#" class="category-link">Browse</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 4: Light & Atmosphere -->
+            <article class="category-card">
+                <div class="category-card-image" style="background-image: url('https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&h=600&fit=crop');">
+                </div>
+                <div class="category-card-content">
+                    <h2>Light & Atmosphere</h2>
+                    <p>How light shapes space. Natural daylight strategies, artificial lighting design, and the subtle art of creating mood, warmth, and calm through illumination.</p>
+                    <div class="category-meta">
+                        <span class="category-count">12 articles</span>
+                        <a href="#" class="category-link">Browse</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 5: Slow Living -->
+            <article class="category-card">
+                <div class="category-card-image" style="background-image: url('https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&h=600&fit=crop');">
+                </div>
+                <div class="category-card-content">
+                    <h2>Slow Living</h2>
+                    <p>Spaces for a slower pace. Essays and guides on creating homes that support rest, ritual, and presence — less consumption, more intention, and the beauty of imperfection.</p>
+                    <div class="category-meta">
+                        <span class="category-count">20 articles</span>
+                        <a href="#" class="category-link">Browse</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 6: Adaptive Reuse -->
+            <article class="category-card">
+                <div class="category-card-image" style="background-image: url('https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=800&h=600&fit=crop');">
+                </div>
+                <div class="category-card-content">
+                    <h2>Adaptive Reuse</h2>
+                    <p>Old structures, new purpose. Barns, factories, churches, and warehouses reimagined — a look at how heritage buildings find fresh life through sensitive intervention.</p>
+                    <div class="category-meta">
+                        <span class="category-count">9 articles</span>
+                        <a href="#" class="category-link">Browse</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 7: Colour & Texture -->
+            <article class="category-card">
+                <div class="category-card-image" style="background-image: url('https://images.unsplash.com/photo-1598301257982-0cf014dabbcd?w=800&h=600&fit=crop');">
+                </div>
+                <div class="category-card-content">
+                    <h2>Colour & Texture</h2>
+                    <p>Palettes, patinas, and tactile surfaces. Exploring how colour and material texture influence the feel of a room and the way we inhabit it day to day.</p>
+                    <div class="category-meta">
+                        <span class="category-count">11 articles</span>
+                        <a href="#" class="category-link">Browse</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 8: Outdoor Spaces -->
+            <article class="category-card">
+                <div class="category-card-image" style="background-image: url('https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&h=600&fit=crop');">
+                </div>
+                <div class="category-card-content">
+                    <h2>Outdoor Spaces</h2>
+                    <p>Gardens, courtyards, terraces, and landscapes. The dialogue between inside and out — planting design, natural pools, and spaces that invite us to linger outdoors.</p>
+                    <div class="category-meta">
+                        <span class="category-count">14 articles</span>
+                        <a href="#" class="category-link">Browse</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">Crovelle <span>Living Forms</span></div>
+                    <p>An independent editorial publication on interior design and architecture. In-depth articles, practical guides, and critical thinking for people who care about spaces.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Use</a></li>
+                        <li><a href="cookies.html">Cookies Policy</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow</h4>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2025 Crovelle Living Forms. All rights reserved.</span>
+                <span>Made with care for thoughtful living.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // ---------- PROGRESS BAR ----------
+        const progressBar = document.getElementById('progressBar');
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+            progressBar.style.width = progress + '%';
+        });
+
+        // ---------- MOBILE MENU ----------
+        const menuToggle = document.getElementById('menuToggle');
+        const mainNav = document.getElementById('mainNav');
+        menuToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('open');
+        });
+        mainNav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mainNav.classList.remove('open');
+            });
+        });
+
+        // ---------- SCHEMA MARKUP (CollectionPage + Categories) ----------
+        const schemaScript = document.createElement('script');
+        schemaScript.type = 'application/ld+json';
+        schemaScript.textContent = JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Categories — Crovelle Living Forms",
+            "description": "Browse Crovelle Living Forms categories: interior design, architecture, materials, lighting, and slow living.",
+            "url": "https://www.crovellelivingforms.com/categories.html",
+            "about": {
+                "@type": "Thing",
+                "name": "Interior Design & Architecture Categories"
+            },
+            "hasPart": [
+                { "@type": "WebPage", "name": "Interiors" },
+                { "@type": "WebPage", "name": "Architecture" },
+                { "@type": "WebPage", "name": "Materials & Craft" },
+                { "@type": "WebPage", "name": "Light & Atmosphere" },
+                { "@type": "WebPage", "name": "Slow Living" },
+                { "@type": "WebPage", "name": "Adaptive Reuse" },
+                { "@type": "WebPage", "name": "Colour & Texture" },
+                { "@type": "WebPage", "name": "Outdoor Spaces" }
+            ]
+        });
+        document.head.appendChild(schemaScript);
+    </script>
+</body>
+</html>
